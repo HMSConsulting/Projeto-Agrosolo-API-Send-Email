@@ -1,0 +1,9 @@
+git init
+git config --global user.name "HMSConsulting"
+git config --global user.email "projetos@hmsconsulting.com.br"
+git remote add originEmail https://github.com/HMSConsulting/Projeto-Agrosolo-API-Send-Email.git
+git remote set-url https://github.com/HMSConsulting/Projeto-Agrosolo-API-Send-Email.git
+git add .
+git commit -m ""
+git pull originEmail master
+git push -u originEmail master 
